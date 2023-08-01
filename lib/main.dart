@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'models/Image_screen/bloc/get_image_bloc.dart';
+import 'modules/Image_screen/bloc/get_image_bloc.dart';
 
-import 'models/Image_screen/screens/display_image_screen.dart';
+import 'modules/Image_screen/screens/display_image_screen.dart';
 
 void main() {
   runApp(const MyApp());
